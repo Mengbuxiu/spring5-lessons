@@ -1,2 +1,13 @@
 # Project exclude paths
 /thinking-in-spring/ioc-container-overview/target/
+*.iml
+.idea/.gitignore
+.idea/compiler.xml
+.idea/libraries/
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+spring5-lessons.iml
+thinking-in-spring/ioc-container-overview/ioc-container-overview.iml
+thinking-in-spring/ioc-container-overview/src/test/
+thinking-in-spring/thinking-in-spring.iml
