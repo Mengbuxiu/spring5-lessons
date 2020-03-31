@@ -23,7 +23,7 @@ public class DependencyLookupDemo {
         lookupInRealTime(beanFactory);
         lookupByAnnotation(beanFactory);
     }
-
+    @SuppressWarnings("unchecked")
     private static void lookupByAnnotation(BeanFactory beanFactory) {
         if (beanFactory instanceof ListableBeanFactory) {
             ListableBeanFactory listableBeanFactory = (ListableBeanFactory) beanFactory;
